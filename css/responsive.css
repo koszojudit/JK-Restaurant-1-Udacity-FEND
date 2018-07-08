@@ -1,0 +1,99 @@
+/* MAX SIZE */
+@media screen and (min-width: 1281px) {
+  .wrapper {
+  	width: 1250px;
+  }
+}
+/* DESKTOP SIZES */
+
+@media screen and (min-width: 1221px) and (max-width: 1540px)  {
+  .wrapper {
+  	width: 1200px;
+  }
+
+  #restaurant-img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1220px)  {
+  .wrapper {
+  	width: 900px;
+  }
+}
+
+/* TABLET SIZES */
+
+@media screen and (max-width: 770px) {
+  .home main {
+  	margin-top: 8em;
+  }
+  .home header {
+    height: 8em;
+  }
+  nav {
+    height: 3em;
+  }
+  .home nav {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home .logo {
+    width: 100%;
+    height: 4em;
+  }
+  .filter-options {
+    height: 3em;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #restaurants-list {
+    justify-content: center;
+    padding: 1em;
+  }
+  #map {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #restaurants-list li {
+    width: 80%;
+  }
+  .inside #map-container {
+    position: static;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 1em;
+  }
+  .inside .wrapper {
+    width: 100%;
+  }
+}
+
+/* MOBILE SIZES */
+
+@media screen and (max-width: 480px) {
+  .filter-options h2 {
+    display: none;
+  }
+
+  #restaurant-hours td {
+    display: table-header-group;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo h1 {
+  	font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    width: 320px;
+  }
+}
