@@ -25,22 +25,22 @@ Main page:
   - Restaurant cards - showing photo, name, neighborhood, address, view details button
 
 Individual restaurant page:
-  - previous mentioned details
-  - individual restaurant map
-  - opening hours
-  - reviews for the restaurant
+  - Previous mentioned details (photo, name, neighborhood, address)
+  - Individual restaurant map
+  - Opening hours
+  - Reviews for the restaurant
 
 
 ##  Added Features
 
 ### Responsive Design:
-  - making UI Ucompatible with a range of display sizes (adaptive to screen widths from 320 px up to 1280px+)
-  - responsive images (sizing appropriate to the viewport)
+  - Making UI Ucompatible with a range of display sizes (adaptive to screen widths from 320 px up to 1280px+)
+  - Responsive images (sizing appropriate to the viewport)
 
 ### Accessiblity:
-  - accessible images with alternate text
-  - focus management allows easy navigation of the site
-  - semnatically defined elements and ARIA roles
+  - Accessible images with alternate text
+  - Focus management allows easy navigation of the site
+  - Semnatically defined elements and ARIA roles
 
 ### Offline Availability:
   Service worker enables the app to be available offline after the first use.
