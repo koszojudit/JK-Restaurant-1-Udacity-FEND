@@ -3,23 +3,30 @@
   .wrapper {
   	width: 1250px;
   }
+  #restaurant-container {
+    width: 30vw;
+  }
+  #reviews-container {
+    width: 30vw;
+  }
+  .inside #map-container {
+  	width: calc(70vw - 1em);
+  }
 }
 /* DESKTOP SIZES */
-
-@media screen and (min-width: 1221px) and (max-width: 1540px)  {
-  .wrapper {
-  	width: 1200px;
-  }
-
-  #restaurant-img {
-    width: 280px;
-    height: 280px;
-  }
-}
 
 @media screen and (min-width: 941px) and (max-width: 1220px)  {
   .wrapper {
   	width: 900px;
+  }
+  #restaurant-container {
+    width: 40vw;
+  }
+  #reviews-container {
+    width: 40vw;
+  }
+  .inside #map-container {
+  	width: calc(60vw - 1em);
   }
 }
 
@@ -49,7 +56,9 @@
     width: 100%;
     justify-content: center;
   }
-
+  .inside .wrapper {
+  	font-size: 0.8em;
+  }
   #restaurants-list {
     justify-content: center;
     padding: 1em;
@@ -63,14 +72,11 @@
   #restaurants-list li {
     width: 80%;
   }
-  .inside #map-container {
-    position: static;
-    width: 100%;
-    height: 40vh;
-    margin-bottom: 1em;
+  #restaurant-name {
+  	font-size: 1.2em;
   }
-  .inside .wrapper {
-    width: 100%;
+  #restaurant-hours td {
+    display: table-header-group;
   }
 }
 
@@ -80,9 +86,17 @@
   .filter-options h2 {
     display: none;
   }
-
-  #restaurant-hours td {
-    display: table-header-group;
+  #restaurant-container {
+    width: 100vw;
+  }
+  #reviews-container {
+    width: 100vw;
+  }
+  .inside #map-container {
+    position: static;
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 1em;
   }
 }
 
