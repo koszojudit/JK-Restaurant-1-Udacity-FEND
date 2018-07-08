@@ -2,15 +2,9 @@
 
 Contents:
 
-- [Live Version](#live-version)
 - [Project Description](#project-description)
 - [Added Features](#added-features)
 - [Local Usage](#local-usage)
-
-
-## Live Version
-https://koszojudit.github.io/JK-Restaurant-1-Udacity-FEND/
-
 
 ## Project Description
 This is 6th project during the Udacity Front-End Web Developer Nanodegree Program.
